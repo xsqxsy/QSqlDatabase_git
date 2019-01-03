@@ -2,6 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QSqlTableModel>
 
 namespace Ui {
 class Widget;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::Widget *ui;
+    QSqlTableModel* m_model;
 };
 
 #endif // WIDGET_H
